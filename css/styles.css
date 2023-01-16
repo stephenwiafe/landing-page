@@ -1,7 +1,7 @@
 .hero{
     background-color: #1F2937;
-    display: flex;
-    justify-content: space-between;
+    /*display: flex;
+    justify-content: space-between; */
 }
 
 .header-logo-text{
@@ -13,5 +13,10 @@
     font-weight: 18px;
     color: #E5E7EB;
     text-decoration: none;
+}
+
+.top-heading{
+    display: flex;
+    justify-content: space-around;
 }
 
