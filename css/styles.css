@@ -31,3 +31,20 @@ p{
     font-size: 18px;
     color: #F9FAF8;
 }
+
+.random-info-section{
+    background-color: rgb(255, 255, 255)
+
+}
+
+.information-header{
+    color:#1F2937;
+    font-size: 36px;
+}
+
+.quote-section{
+    background-color:#E5E7EB;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
