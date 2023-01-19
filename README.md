@@ -1,4 +1,4 @@
-# landing-page
+# Landing Page
 
 
 ## Description
