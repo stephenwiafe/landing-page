@@ -1,53 +1,53 @@
 body{
-    height: 100vh;
-    margin: 0;
+  height: 100vh;
+  margin: 0;
 }
 
 .hero{
-    background-color: #1F2937;
-    margin: 0;
-    padding: 0;
+  background-color: #1F2937;
+  margin: 0;
+  padding: 0;
 }
 
 .header-logo-text{
-    font-weight: 24px;
-    color: #F9FAF8;
+  font-weight: 24px;
+  color: #F9FAF8;
 }
 
 .header-link-text{
-    font-weight: 18px;
-    color: #E5E7EB;
-    text-decoration: none;
+  font-weight: 18px;
+  color: #E5E7EB;
+  text-decoration: none;
 }
 
 .top-heading{
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .hero-main-text{
-    color: #F9FAF8;
-    font-size: 48px;
+  color: #F9FAF8;
+  font-size: 48px;
 }
 
 p{
-    font-size: 18px;
-    color: #F9FAF8;
+  font-size: 18px;
+  color: #F9FAF8;
 }
 
 .random-info-section{
-    background-color: rgb(255, 255, 255)
+  background-color: rgb(255, 255, 255)
 
 }
 
 .information-header{
-    color:#1F2937;
-    font-size: 36px;
+  color:#1F2937;
+  font-size: 36px;
 }
 
 .quote-section{
-    background-color:#E5E7EB;
-    display: block;
-    justify-content: center;
-    align-items: center;
+  background-color:#E5E7EB;
+  display: block;
+  justify-content: center;
+  align-items: center;
 }
