@@ -52,6 +52,11 @@ p{
   align-items: center;
 }
 
+.call-to-action{
+  background-color: #3882F6;
+  color: #F9FAF8;
+}
+
 .footer{
   display: flex;
   justify-content: center;
