@@ -1,59 +1,133 @@
-body{
+body {
   height: 100vh;
   margin: 0;
+  font-family: Roboto;
 }
 
-.hero{
-  background-color: #1F2937;
+.hero {
+  background-color: #1f2937;
   margin: 0;
-  padding: 0;
+  padding: 30px;
+  
 }
 
-.header-logo-text{
-  font-weight: 24px;
-  color: #F9FAF8;
+.hero-logo {
+  font-size: 24px;
+  color: #f9faf8;
+  
 }
 
-.header-link-text{
-  font-weight: 18px;
-  color: #E5E7EB;
+.hero-link-text {
+  font-size: 18px;
+  color: #e5e7eb;
   text-decoration: none;
 }
 
-.top-heading{
+.hero-secondary-text {
+  color: #f9faf8;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  width: 400px;
+}
+
+.header {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+  gap: 200px;
+}
+
+.hero-main {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.herotext-container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.hero-main-text{
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  color: #f9faf8;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 6px;
+  padding: 5px;
+  font-weight: bold;
+  width: 115px; 
+  cursor: pointer;
+}
+
+.image-placeholder {
+  color: #f9faf8;
+  background-color: #7e7e7e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 390px;
+  font-size: 18px;
+}
+
+ul{
+  padding: 0;
+  margin: 0;
+}
+
+
+/*make changes to class below*/
+.top-heading {
   display: flex;
   justify-content: space-around;
 }
 
-.hero-main-text{
-  color: #F9FAF8;
-  font-size: 48px;
-}
 
-p{
+
+p {
   font-size: 18px;
   color: #F9FAF8;
 }
 
-.random-info-section{
+.random-info-section {
   background-color: rgb(255, 255, 255)
 
 }
 
-.information-header{
+.information-header {
   color:#1F2937;
   font-size: 36px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+
 }
 
-.quote-section{
+.quote-section {
   background-color:#E5E7EB;
-  display: block;
+  padding: 30px;
+ 
+}
+
+.quote {
+  display: flex;
   justify-content: center;
-  align-items: center;
+  width: 320px;
+
 }
 
 .call-to-action-section{
-  padding: 50px;
+  padding: 100px;
 }
 
 .call-to-action{
@@ -67,4 +141,5 @@ p{
   align-items: center;
   background-color: #1F2937;
   color: white;
+  padding: 20px;
 }
