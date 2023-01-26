@@ -1,37 +1,41 @@
 body {
   height: 100vh;
   margin: 0;
-  font-family: 'Roboto';
+  font-family: Roboto, serif;
 }
 
 /*hero section*/
 
 .hero {
   background-color: #1f2937;
-  margin: 0;
-  padding: 30px; 
+  padding-bottom: 100px;
 }
 
 .header {
   display: flex;
-  align-items: flex-end;
   justify-content: space-around;
-  gap: 200px;
-}
+  gap: 165px;
+  padding-bottom: 50px;
 
-.top-heading {
-  display: flex;
-  justify-content: space-around;
 }
 
 .hero-logo {
   font-size: 24px;
-  color: #f9faf8; 
+  color: #f9faf8;
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
 }
 
-.hero-link-text {
+ul{
+  display: flex;
+  gap: 20px;
+  width: 400px;
+}
+
+.herolink-text {
   font-size: 18px;
-  color: #e5e7eb;
+  color: #e5e7eb; 
   text-decoration: none;
 }
 
@@ -62,9 +66,9 @@ body {
   width: 400px;
 }
 
-.image-placeholder {
-  color: #f9faf8;
-  background-color: #7e7e7e;
+.img-placeholder {
+  color: white;
+  background-color: #737373;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -129,7 +133,6 @@ button {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  font-weight: 300;
 }
 
 .quote {
@@ -148,13 +151,13 @@ button {
 
 /*calltoaction-section*/
 
-.calltoaction-section{
+.calltoaction-section {
   padding: 50px 100px;
   display: flex;
   justify-content: center;
 }
 
-.call-to-action{
+.call-to-action {
   background-color: #3882F6;
   color: #f9faf8;
   display: flex;
@@ -170,7 +173,7 @@ button {
 
 /*footer section*/
 
-.footer{
+.footer {
   display: flex;
   justify-content: center;
   align-items: center;
