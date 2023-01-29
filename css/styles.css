@@ -42,6 +42,7 @@ ul{
 .hero-main {
   display: flex;
   justify-content: space-around; 
+  flex-wrap: wrap-reverse;
 }
 
 .herotext-container {
@@ -109,6 +110,7 @@ button {
   display: flex;
   justify-content: center;
   gap: 25px;
+  flex-wrap: wrap;
 }
 
 .img {
